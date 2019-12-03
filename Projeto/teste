@@ -1,0 +1,21 @@
+Supply.deployed().then(function(instance) { sup = instance })
+
+
+sup.addColheita("Tomate",500,"Frescos",2)
+
+sup.addTransporte("Tomate",100,"Frescos",2)
+sup.addTransporte("Tomate",100,"Ruim",2)
+sup.addTransporte("Tomate",100,"Frescos",2)
+sup.addTransporte("Tomate",200,"Frescos",2)
+
+sup.addRecebimento("Tomate",500,"Frescos",2)
+
+
+sup.addColheita("Batata",500,"Frescos",5)
+
+sup.addTransporte("Batata",100,"Frescos",5)
+sup.addTransporte("Batata",100,"Frescos",5)
+sup.addTransporte("Batata",100,"Frescos",5)
+sup.addTransporte("Batata",200,"Frescos",5)
+
+sup.addRecebimento("Batata",500,"Frescos",5)
